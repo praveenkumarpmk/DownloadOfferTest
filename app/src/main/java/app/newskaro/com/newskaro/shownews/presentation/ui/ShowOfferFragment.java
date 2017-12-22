@@ -39,6 +39,7 @@ public class ShowOfferFragment extends Fragment {
         return fragment;
     }
 
+    //Listener
     private RecyclerAdapter.BindAdapterListener<OfferShowHolder> offerNotificationListener =
             new RecyclerAdapter.BindAdapterListener<OfferShowHolder>() {
                 @Override
@@ -114,6 +115,7 @@ public class ShowOfferFragment extends Fragment {
         initRecyclerViews(offerDownloadList);
     }
 
+    //Init Recyclerview
     private void initRecyclerViews(List<OfferDownload> newsDownloadList) {
         if (newsDownloadList != null && !newsDownloadList.isEmpty()) {
             LinearLayoutManager layoutManager = new LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false);
@@ -129,6 +131,10 @@ public class ShowOfferFragment extends Fragment {
         }
     }
 
+    /*
+    get Description
+     */
+
     private String getDescription(int position) {
         String description = "";
         if (offerDownloadList != null) {
@@ -137,6 +143,9 @@ public class ShowOfferFragment extends Fragment {
         return description;
     }
 
+    /*
+    get Merchant Name
+     */
     private String getMerchantname(int position) {
         String merchantName = "";
         if (offerDownloadList != null) {
@@ -145,6 +154,9 @@ public class ShowOfferFragment extends Fragment {
         return merchantName;
     }
 
+    /*
+    get Food Item
+     */
     private int getImage(int position) {
         int imgId = R.drawable.ic_launcher_background;
         if (offerDownloadList != null) {
