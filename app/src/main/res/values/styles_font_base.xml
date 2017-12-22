@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Font types definition -->
+
+    <style name="TextAppearance.FontPath.HelveticaNeueThin" parent="android:TextAppearance">
+        <item name="fontPath">fonts/HelveticaNeueLTPro-Lt.ttf</item>
+    </style>
+
+    <style name="TextAppearance.FontPath.HelveticaNeueRegular" parent="android:TextAppearance">
+        <item name="fontPath">fonts/HelveticaNeueLTPro-Lt.ttf</item>
+    </style>
+
+    <style name="TextAppearance.FontPath.HelveticaNeueMedium" parent="android:TextAppearance">
+        <item name="fontPath">fonts/HelveticaNeueLTPro-Md.ttf</item>
+    </style>
+
+    <style name="TextAppearance.FontPath.HelveticaNeueBoldCondensed" parent="android:TextAppearance">
+        <item name="fontPath">fonts/HelveticaNeueLTPro-Bd.ttf</item>
+    </style>
+
+    <style name="TextAppearance.FontPath.HelveticaNeueCondensed" parent="android:TextAppearance">
+        <item name="fontPath">fonts/HelveticaNeueLTPro-Lt.ttf</item>
+
+    </style>
+
+    <style name="TextAppearance.FontIcons" parent="android:TextAppearance">
+        <item name="fontPath">fonts/NewsKaro.ttf</item>
+    </style>
+
+    <!-- Font types definition: ends -->
+</resources>
